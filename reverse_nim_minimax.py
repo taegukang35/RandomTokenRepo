@@ -61,7 +61,7 @@ def minimax(state, is_maximizing, depth=0):
                     return False
         return True
 
-minimax(root, True)
+print("P1 wins" if minimax(root, True) else "P2 wins")
 
 pos = {}
 layer_counts = {}
